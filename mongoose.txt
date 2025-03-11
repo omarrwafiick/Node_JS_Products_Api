@@ -1,0 +1,5 @@
+admin2
+
+Admin2$
+
+mongodb+srv://admin2:Admin2$@backenddb.dtkug.mongodb.net/?retryWrites=true&w=majority&appName=backendDb 
