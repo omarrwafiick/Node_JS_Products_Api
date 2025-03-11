@@ -9,7 +9,7 @@ app.use(express.json());
 //routes
 app.use("/api/products", ProductRoute);
     
-mongoose.connect("mongodb+srv://admin2:Admin2$@backenddb.dtkug.mongodb.net/Node-API?retryWrites=true&w=majority&appName=backendDb")
+mongoose.connect("-----ConnectionString-----")
 .then( () =>{
     console.log("Connected To Database Successfully") 
     app.listen(3000, () => {
